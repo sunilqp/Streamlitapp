@@ -2,7 +2,7 @@ import streamlit as st1
 import pandas as pd
 import numpy as np
 from sklearn.model_selection import train_test_split
-import seaborn as sns
+#import seaborn as sns
 import matplotlib.pyplot as plt
 from sklearn.preprocessing import StandardScaler
 from sklearn.linear_model import LogisticRegression
@@ -103,8 +103,8 @@ plt.title('Box Plot')
 plt.show()
 # Check Heathmap
 
-sns.heatmap(winedf.corr(), annot = True, cbar = True)
-plt.show()
+#sns.heatmap(winedf.corr(), annot = True, cbar = True)
+#plt.show()
 winedf.head(1)
 # More check
 print(winedf.isnull().sum())

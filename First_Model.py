@@ -16,7 +16,7 @@ with header:
 
 
 
-winedf=pd.read_csv(r'/content/wine.csv')
+winedf=pd.read_csv(r'wine.csv')
 # Data Cleaning
 winedf.info()
 # Column Name has special Char to to change it 

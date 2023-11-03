@@ -15,8 +15,8 @@ with header:
     st1.title('Welcome to world of machine learning')
 
 
-
-winedf=pd.read_csv(r'wine.csv')
+url="https://github.com/sunilqp/Streamlitapp/blob/main/wine.csv"
+winedf=pd.read_csv(url)
 # Data Cleaning
 winedf.info()
 # Column Name has special Char to to change it 
